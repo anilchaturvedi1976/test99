@@ -13,7 +13,11 @@ on:
  
 jobs:
   deploy_snowflake_changes-job:
+<<<<<<< HEAD
    runs-on : ubuntu-22.04 
+=======
+   runs-on : ubuntu-22.04 latest
+>>>>>>> 03b5213f9dd91b84755a78e82e0e3fe9b79a3bb3
   
    steps: 
     # checks-out repository under $GITHUB_WORKSPACE
